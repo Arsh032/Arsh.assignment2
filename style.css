@@ -1,0 +1,261 @@
+/* Lesson starts here */
+html{
+    scroll-behaviour: smooth;
+}
+body{
+    margin: 0px;
+    background-color: yellowgreen;
+}
+main{
+  background-color: rgb(37,29,29);
+}
+h1,h2,h3,h4,h5,h6{
+     font-family: 'Sacramento', cursive;
+      opacity: 1; 
+
+
+}
+p,a,li{
+    font-family: 'Caveat', cursive;
+
+    font-size: 22px;
+}
+/*style our header*/
+header{
+display: flex;
+align-items: center;
+height: 125px;
+flex-grow: 1;
+}
+header div{
+  width: auto;
+  height: 115px;
+  flex-grow: 1;
+}
+header div a img{
+    width: auto;
+    height: 100%;
+}
+header nav menu{
+    display: flex; 
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+}
+header nav menu li{
+    padding: 0px 10px;
+}
+header nav menu li a:link{
+    text-decoration: none;
+    color: black;
+}
+header nav menu link a:hover{
+  text-decoration: none;
+  color: skyblue;
+}
+/*monchrome*/
+#mono-scheme{
+    width: auto;
+    min-height: 100vh;
+}
+.mono-header{
+
+    background-image: url("../satinder sartaj.bmp");
+    background-size: cover;
+
+  }
+
+.mono-header div:nth-child(1){
+  background-color: rgba(0.5,0.6,0.7,.9);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+.mono-header h4{
+  color:white;
+  font-size:52px;
+  margin-bottom:70px;
+  letter-spacing: .25em;
+}
+.mono-header a{
+  margin: 0px 10px;
+  border:solid 4px white;
+  background-color:black;
+  color:white;
+  padding:15px 35px;
+  text-decoration: none; 
+}
+.mono-btn{
+  flex-direction: row;
+}
+.mono-header a:hover{
+  border-color: red;
+}
+.mono-body{
+background-color: white;
+  padding: 5%;
+  text-align: center;
+}
+.mono-body h5{
+  font-size:28px;
+  
+}
+.mono-body-row{
+  display: grid;
+  grid-template-columns: repeat(3,33,3%);
+  justify-content: center;
+  padding: 4%;
+}
+.mono-body-row div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.mono-body-row div i{
+  font-size: 72px;
+}
+.para1{
+  color:purple;
+}
+.para2{
+  color:yellowgreen;
+}
+.para3{
+  color:skyblue;
+}
+.para4{
+  color:purple;
+}
+.para5{
+  color:yellowgreen;
+}
+.para6{
+  color:skyblue;
+}
+.para7{
+  color:purple;
+}
+.para8{
+  color:yellowgreen;
+}
+.para9{
+  color:skyblue;
+}
+.para10{
+  color:purple;
+}
+.para11{
+  color:yellowgreen;
+}
+ .music-box {
+     padding: 90px 0px;
+     background: #fff;
+}
+ .music-box .for-box {
+     padding: 0px 20px;
+}
+ .music-box .for-box i {
+     text-align: center;
+     display: block;
+}
+ .music-box .for-box h3 {
+     padding-top: 28px;
+     font-size: 20px;
+     line-height: 25px;
+     color: #030000;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+ .music-box .for-box p{
+     font-size:16px;
+     line-height:22px;
+     color:#030000;
+}
+
+ .music-box {
+     padding: 90px 0px;
+     background: #fff;
+}
+ .music-box .for-box {
+     padding: 0px 20px;
+}
+ .music-box .for-box i {
+     text-align: center;
+     display: block;
+}
+ .music-box .for-box h3 {
+     padding-top: 28px;
+     font-size: 20px;
+     line-height: 25px;
+     color: #030000;
+     font-weight: thin;
+     text-transform: uppercase;
+}
+ .music-box .for-box p{
+     font-size:16px;
+     line-height:22px;
+     color:#030000;
+}
+
+ .Newsletter {
+     color: #fff;
+     font-size: 26px;
+     line-height: 26px;
+     font-weight: 500;
+     padding-bottom: 15px;
+}
+ .email {
+     padding: 14px 10px;
+     width: 100%;
+     border: #ddd solid 1px;
+    ;
+ }
+ .contactus {
+     border: #b1b0b0 solid 1px;
+     padding: 12px 19px;
+     margin-bottom: 20px;
+     border-radius: 10px;
+     color: #000;
+     width: 100%;
+}
+
+ .textarea {
+     margin-bottom: 25px;
+     padding: 12px 19px;
+     color: #000 !important;
+     width: 100%;
+     border: #b1b0b0 solid 1px;
+     border-radius: 10px;
+}
+ .send {
+     font-size: 16px;
+     border: #fff solid 1px;
+     padding: 10px 50px;
+     background-color: #fff;
+     align-items: center;
+     flex-wrap: wrap;
+     border-radius: 10px;
+     color: #f70e0e;
+}
+ .send:hover {
+     background-color: #f70e0e;
+     border: #f70e0e solid 1px;
+     color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
